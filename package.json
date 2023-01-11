@@ -1,14 +1,14 @@
 {
-  "name": "segundoapp",
+  "name": "terceiroapp",
   "version": "1.0.0",
-  "description": "Aula 2 ",
+  "description": "Atividade 3 -- Programação para internet",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index ",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "João Vitor dos Santos Alves",
+  "author": "João Vitor",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
