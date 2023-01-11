@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <style type="text/css">
+                  *{font: 25px calibri;}
+                  h1{background-color:rgba(224, 223, 159, 0.726) ; font: bold 40px calibri;}
+            </style>  
+    </head>
+        <meta charset="utf-8">
+        <title> Cadastro de Empresa </title>
+        <body>
+            <fieldset>
+            <form method= "POST" action="/cadastroEmpresa" >
+
+                
+                <h1>Cadastre a sua empresa !!!<br><br>
+
+                <label for="iCNPJ">CNPJ:</label><br/>
+                <input id="iCNPJ" type="text" placeholder="99.999.999/9999-99" 
+                 maxlength="14"/><br>
+                
+                 <label for="nome">Nome Fantasia:</label><br>
+                <input type="text" id="nome" name="name" placeholder="Bar do tiozinho"/><br>
+                
+                <label for="razao">Razão Social:</label><br>
+                <input type="text" id="razao" name="razao" placeholder="xxxx Empreendimentos"/><br>
+                
+                <label for="endereco">Endereço:</label><br>
+                <input type="text" id="endereco" name="endereco" placeholder="Rua ZZZZZZZ, Nº"/><br>
+
+
+                <label for="cidade">Cidade:</label><br>
+                <input type="text" id="cidade" name="cidade" placeholder="Presidente Prudente"><br>
+
+                <label for="estado">UF:</label><br>
+                <input type="text" id="estado" name="estado" placeholder="Sao Paulo"><br>
+
+                <label for="cep">CEP:</label><br>
+                <input type="text" id="cep" name="cep" placeholder="19088-999" maxlength="9"><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="teste@teste.com"><br>
+
+                <label for="tel">Telefone:</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="(99)9999-9999" maxlength="13"><br>
+
+
+                <button type="submit">CADASTRAR</button>
+
+            </form></h1>
+        </fieldset>
+        </body>
+        <script src="index.js"></script>
+</html>
